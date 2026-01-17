@@ -68,11 +68,11 @@
     "rimraf": "^5.0.5"
   },
   "scripts": {
-    "build": "rimraf dist && tsup-node",
+    "build": "node init && rimraf dist && tsup-node",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "clean": "rimraf dist && rimraf node_modules",
-    "dev": "tsup-node --watch",
+    "dev": "node init && tsup-node --watch",
     "lint": "eslint --ext .tsx,.ts ."
   }
 }
