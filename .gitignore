@@ -17,7 +17,6 @@ release
 *.local
 
 # Editor directories and files
-.vscode/.debug.env
 .idea
 .DS_Store
 *.suo
@@ -34,10 +33,6 @@ yarn.lock
 /playwright-report/
 /playwright/.cache/
 
-.env
-.env.local
-.env.production
-.env.development
 
 .cursor
 
@@ -54,3 +49,4 @@ __pycache__/
 *$py.class
 *.so
 .Python
+config.bat
