@@ -1,0 +1,33 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "UX-final-improvement-and-release-check",
+    "dependabot/npm_and_yarn/electron-40.0.0",
+    "feat-add-tips",
+    "feat-add-tips_wd",
+    "feat/browser_external_cdp",
+    "fix-issue-image-render-in-html",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "UX-final-improvement-and-release-check": "main",
+    "dependabot/npm_and_yarn/electron-40.0.0": "main",
+    "feat-add-tips": "main",
+    "feat-add-tips_wd": "main",
+    "feat/browser_external_cdp": "main",
+    "fix-issue-image-render-in-html": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "UX-final-improvement-and-release-check",
+    "dependabot/npm_and_yarn/electron-40.0.0",
+    "feat-add-tips",
+    "feat-add-tips_wd",
+    "feat/browser_external_cdp",
+    "fix-issue-image-render-in-html",
+    "origin"
+  ]
+}
